@@ -1,11 +1,10 @@
 {
   "name": "ermjs",
   "version": "1.0.0",
-  "description": "ErmAI JavaScript SDK for browsers - Simple AI integration",
+  "description": "ErmAI JavaScript SDK for browsers",
   "main": "dist/ermai.min.js",
   "scripts": {
-    "build": "browserify src/index.js -o dist/ermai.min.js -t babelify",
-    "dev": "live-server --port=8000"
+    "build": "browserify src/index.js -o dist/ermai.min.js -t babelify"
   },
   "keywords": ["ai", "groq", "google", "generative-ai", "browser"],
   "author": "Gabyface910",
@@ -14,7 +13,6 @@
     "browserify": "^17.0.0",
     "babelify": "^10.0.0",
     "@babel/core": "^7.22.0",
-    "@babel/preset-env": "^7.22.0",
-    "live-server": "^1.2.2"
+    "@babel/preset-env": "^7.22.0"
   }
 }
